@@ -1,0 +1,142 @@
+
+
+.header {
+    display: flex;
+    
+}
+
+
+
+.association-logo  img {
+
+    width: 100px;
+    height: 50px;
+}
+/* for toggling the menu button  */
+.toggle-button {
+    height: 21px;
+    width: 25px;
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+  
+    
+    .toggle-button{
+        display:block;
+        cursor: pointer;
+    }
+    .navbar{
+        display: none;
+       margin: 0px;
+    }
+    .toggle-nav{
+        display:block;
+        transition: height 2s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .members-box {
+        display: flex;
+        flex-direction: column;
+
+    } 
+}
+
+@media screen and  (min-width: 605px) {
+    .navbar{
+        
+        height: 300px;
+        width: 300px ;
+        border-color: blue;
+        float: left;
+        justify-content: space-between;
+        margin: 1rem;
+        
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: auto auto auto  ;
+    }
+
+    .members-box {
+        display: grid;
+        grid-template-columns: auto auto;
+        
+
+    } 
+  }
+
+
+
+
+.association-title {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+    margin: .4rem;
+}
+
+.navbar {
+    height: 100%;
+   
+   
+}
+
+.navbar >ul {
+    justify-content: space-between;
+}
+.navbar >ul > li{
+    
+    list-style:none;
+    text-align: center;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: .5rem;
+    margin: 1.5rem;
+    
+    
+} 
+
+.navbar >ul > li > a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar >ul > li>a:hover {
+    color: rgb(239, 37, 172);
+}
+
+
+.membersCard {
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    padding: 5%;
+    margin: 2rem;
+   border: solid black 1px;
+   border-radius: 5px;
+}
+
+
+.membersCard img {
+    margin: auto 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.membersCard div p {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+
+.notice-board {
+    margin: 1rem;
+}
