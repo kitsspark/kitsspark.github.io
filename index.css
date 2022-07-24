@@ -1,17 +1,19 @@
-
-
 .header {
-    display: flex;
-    
+    display: flex; 
+    border: solid #FCF8E8 2px; 
 }
 
 
+body {
+    background-color: #FEFBF6;
+}
 
 .association-logo  img {
 
     width: 100px;
     height: 50px;
 }
+
 /* for toggling the menu button  */
 .toggle-button {
     height: 21px;
@@ -23,7 +25,7 @@
 }
 
 @media only screen and (max-width: 600px){
-  
+  /* for mobile */
     
     .toggle-button{
         display:block;
@@ -44,17 +46,23 @@
         flex-direction: column;
 
     } 
+
+    .toggle-button {
+        font: 300px;
+        top: 1rem;
+    }
 }
 
 @media screen and  (min-width: 605px) {
+    /* desktop */
     .navbar{
         
         height: 300px;
-        width: 300px ;
+        width: 250px ;
         border-color: blue;
         float: left;
         justify-content: space-between;
-        margin: 1rem;
+      
         
     }
 
@@ -70,8 +78,6 @@
 
     } 
   }
-
-
 
 
 .association-title {
@@ -97,7 +103,7 @@
     border: solid black 1px;
     border-radius: 5px;
     padding: .5rem;
-    margin: 1.5rem;
+    margin: 1rem;
     
     
 } 
@@ -108,7 +114,7 @@
 }
 
 .navbar >ul > li>a:hover {
-    color: rgb(239, 37, 172);
+    color:#A6D1E6;
 }
 
 
@@ -135,7 +141,10 @@
     text-transform: uppercase;
 
 }
-
+.active 
+{
+    background-color: #A6D1E6;
+}
 
 .notice-board {
     margin: 1rem;
