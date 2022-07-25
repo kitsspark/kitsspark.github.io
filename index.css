@@ -1,7 +1,9 @@
 .header {
     display: flex; 
     border: solid #FCF8E8 2px; 
+   
 }
+
 
 
 body {
@@ -34,11 +36,13 @@ body {
     .navbar{
         display: none;
        margin: 0px;
+     
     }
     .toggle-nav{
         display:block;
-        transition: height 2s;
-        transition-timing-function: ease-in-out;
+        transform: translateY(0);
+        transition: transform 0.3s linear;
+       
     }
 
     .members-box {
@@ -48,8 +52,10 @@ body {
     } 
 
     .toggle-button {
-        font: 300px;
-        top: 1rem;
+    
+       
+        font-size: 48px;
+      
     }
 }
 
@@ -148,4 +154,11 @@ body {
 
 .notice-board {
     margin: 1rem;
+}
+
+.about {
+    background-image: url('./kitslogo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: soft-light;
 }
