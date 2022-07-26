@@ -108,11 +108,13 @@ nav .fa{
     .nav-links ul li{
         display: block;
     }
-
+    body {
+        overflow: hidden;
+    }
     .nav-links{
         position: absolute;
         background: #f44336;
-        height: 100vh;
+        height: 100%;
         width: 200px;
         top: 0;
         right: -200px;
@@ -376,7 +378,7 @@ h3{
 .Sub-Header_members{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./images/SPARK_LOGO.jpeg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./images/SPARK_LOGO.jp);
     background-position: center;
     background-size: cover;
     position: relative; 

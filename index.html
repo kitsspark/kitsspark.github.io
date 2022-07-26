@@ -8,13 +8,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <section class="Header">
         <nav>
             <a href="index.html"><img src="./images/SPARK_LOGO.jpeg"></a>
             <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick = "hideMenu()"></i>
+                <i class="material-icons" onclick = "HideMenu()" style="font-size:36px">close</i>
                 <ul>
                     <li><a href="./index.html">HOME</a></li>
                     <li><a href="./about.html">ABOUT</a></li> 
@@ -25,7 +26,8 @@
                     <li><a href="./notice_board.html">NOTICE BOARD</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <i class="material-icons"  onclick="showMenu()" style="font-size:36px">menu</i>
+
         </nav>
 
         <div class="text-box">
@@ -115,14 +117,18 @@
 
 <script>
 
-    var navLinks = document.getElementById("navLinks");
+    // var navLinks = document.getElementById();
 
     function showMenu(){
-        navLinks.styles.right = "0";
+        
+        document.getElementById("navLinks").style.right = "0";
     }
 
-    function hideMenu(){
-        navLinks.styles.right = "-200px";
+    function HideMenu(){
+        // console.log('working')
+        document.getElementById("navLinks").style.right = "-200px";
+      
+
     }
 
 </script>
