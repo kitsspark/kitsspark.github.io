@@ -1,6 +1,7 @@
 *{
     margin : 0;
     padding : 0; 
+    font-family: 'Poppins', sans-serif;
 }
 
 .Header{
@@ -101,7 +102,7 @@ nav .fa{
 
 @media(max-width:700px){
     .text-box h1{
-        font-size: 40px;
+        font-size: 20px;
     }
 
     .nav-links ul li{
@@ -131,7 +132,9 @@ nav .fa{
     .nav-links ul{
         padding: 30px;
     }
-}
+} 
+
+
 
 .course{
     width: 80%;
@@ -280,7 +283,7 @@ h3{
 }
 
 
-.Sub-Header{
+.Sub-Header_about{
     height: 50vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./images/background.jpg);
@@ -291,7 +294,7 @@ h3{
     color: #fff;
 }
 
-.Sub-Header h1{
+.Sub-Header_about h1{
     margin-top: 10px;
 }
 
@@ -328,3 +331,126 @@ h3{
 .red_btn:hover{
     color: #fff;
 }
+
+
+.Sub-Header_gallery{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./images/Gallery.png);
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+    text-align: center;
+    color: #fff;
+}
+
+.Sub-Header_gallery h1{
+    margin-top: 10px;
+}
+
+.gallery{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.gallery-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.gallery img{
+    width: 100%;
+}
+
+.gallery-col h1{
+    padding: 0;
+}
+
+.gallery-col p{
+    padding: 15px 0 25px;
+}
+
+
+.Sub-Header_faculty{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./images/Gallery.png);
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+    text-align: center;
+    color: #fff;
+}
+
+.Sub-Header_faculty h1{
+    margin-top: 10px;
+}
+
+.faculty{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.faculty-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.faculty img{
+    width: 100%;
+}
+
+.faculty-col h1{
+    padding: 0;
+}
+
+.faculty-col p{
+    padding: 15px 0 25px;
+}
+
+
+.Sub-Header_gallery{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./images/Gallery.png);
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+    text-align: center;
+    color: #fff;
+}
+
+.Sub-Header_gallery h1{
+    margin-top: 10px;
+}
+
+.gallery{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.gallery-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.gallery img{
+    width: 100%;
+}
+
+.gallery-col h1{
+    padding: 0;
+}
+
+.gallery-col p{
+    padding: 15px 0 25px;
+}
+
+
+
