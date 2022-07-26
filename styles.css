@@ -4,6 +4,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.makehidden {
+    display: none;
+    }
 .Header{
     min-height: 100vh;
     width: 100%;
@@ -189,6 +192,11 @@ h3{
         flex-direction: column;
 
     }
+
+    .makehidden {
+        display: block;
+    }
+
 }
 
 .campus{
@@ -378,7 +386,9 @@ h3{
 .Sub-Header_members{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./images/SPARK_LOGO.jp);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('./images/teamwork.jpg');
+    background-repeat: no-repeat;
+    
     background-position: center;
     background-size: cover;
     position: relative; 
@@ -532,5 +542,20 @@ h3{
     padding: 15px 0 25px;
 }
 
-
+.members-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+    margin: 1rem;
+  }
+  
+  .members-table td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .members-table tr:nth-child(even) {
+    background-color: #dddddd;
+  }
 
