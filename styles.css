@@ -103,7 +103,7 @@ nav .fa{
 }
 
 
-@media(max-width:700px){
+@media(max-width:800px){
     .text-box h1{
         font-size: 20px;
     }
@@ -111,9 +111,9 @@ nav .fa{
     .nav-links ul li{
         display: block;
     }
-    body {
+    /* body {
         overflow: hidden;
-    }
+    } */
     .nav-links{
         position: absolute;
         background: #f44336;
@@ -273,6 +273,7 @@ h3{
 .facilities-col p{
     padding: 0;
     text-align: left;
+    color: black solid;
 }
 
 .facilities-col h3{
