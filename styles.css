@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.logo{
+    border-radius: 50%;
+}
+
 .makehidden {
     display: none;
     }
@@ -110,6 +114,13 @@ nav .fa{
         font-size: 20px;
     }
 
+    .logo{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+
     .nav-links ul li{
         display: block;
     }
@@ -190,7 +201,7 @@ h3{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
-@media(max-width: 700px){
+@media(max-width: 800px){
     .row{
         flex-direction: column;
 
