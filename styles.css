@@ -71,11 +71,13 @@ nav img{
 
 .text-box h1{
     font-size: 80px;
+    margin: -50px;
 }
 
 .text-box p{
     color: #fff;
     margin: 10px 0 40px;
+    margin-top: 50px;
     font-size: 25px;
 
 }
@@ -349,7 +351,7 @@ h3{
 .Sub-Header_gallery{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./images/Gallery.png);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./images/slide1.jpg);
     background-position: center;
     background-size: cover;
     position: relative; 
@@ -362,30 +364,25 @@ h3{
 }
 
 .gallery{
-    width: 80%;
-    margin: auto;
-    padding-top: 80px;
-    padding-bottom: 50px;
+    padding-bottom: 50px; 
 }
 
-.gallery-col{
-    flex-basis: 48%;
-    padding: 30px 2px;
+.workimage{
+    height: 280px;
+    width: 230px;
 }
 
-.gallery img{
-    width: 100%;
+.working_image{
+    padding-left: 300px;
 }
 
 .gallery-col h1{
     padding: 0;
+} 
+
+.gallery-col h3{
+    padding-left: 275px;
 }
-
-.gallery-col p{
-    padding: 15px 0 25px;
-}
-
-
 .Sub-Header_members{
     height: 50vh;
     width: 100%;
